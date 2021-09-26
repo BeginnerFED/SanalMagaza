@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <!--Bootstrap Icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/072d2e724a.js" crossorigin="anonymous"></script>
+
+    <title>Sanal Mağaza</title>
+</head>
+
+<body>
+
+    <!-- Navbar Başlangıcı -->
+
+    <nav>
+        <!-- Sosyal Medya ve Telefon -->
+        <div class="social-call">
+            <!-- Sosyal Medya -->
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+            </div>
+            <!--Telefon No -->
+            <div class="phone">
+                <span> Bize Ulaşın: 0216 538 52 22 <i class="fas fa-phone"></i></span>
+            </div>
+        </div>
+
+        <!-- Menü Bar -->
+
+        <div class="navigation">
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <img src="img/Logo.png" alt="">
+            </a>
+
+            <!-- Menu Icon -->
+            <div class="toggle">
+
+            </div>
+
+            <!-- Menü -->
+            <ul class="menu">
+                <li><a href="#">ANASAYFA</a></li>
+                <li class="nav-item dropdown "><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false"> <span class="deneme"></span> KATEGORİLER</a>
+                    <!-- Sale Lable -->
+                    <span class="sale-lable">İNDİRİM</span>
+
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item reset" href="#"><i class="fas fa-desktop icon-space"></i>Elektronik
+                                <span class="dropbar-indirim">%30</span></a></li>
+                        <li><a class="dropdown-item reset" href="#"><i class="fas fa-mobile icon-space"></i>Mobil
+                                Aksesuar<span class="dropbar-indirim">%40</span></a></li>
+                        <li><a class="dropdown-item reset" href="#"><i class="fas fa-home icon-space"></i>Elektrikli Ev
+                                Aletleri<span class="dropbar-indirim">%70</span></a></li>
+                        <li><a class="dropdown-item reset" href="#"><i class="fas fa-faucet icon-space"></i>Ev & Mutfak
+                                Gereçleri<span class="dropbar-indirim">%80</span></a></li>
+                        <li><a class="dropdown-item reset" href="#"><i
+                                    class="fas fa-baby icon-space"></i>Anne&Bebek<span
+                                    class="dropbar-indirim">%80</span></a></li>
+                        <li><a class="dropdown-item reset" href="#"><i class="fas fa-gift icon-space"></i>Hediyelik &
+                                Aksesuar<span class="dropbar-indirim">%70</span></a></li>
+                        <li><a class="dropdown-item reset" href="#"><i class="fas fa-heart icon-space"></i>Kişisel Bakım
+                                & Sağlık<span class="dropbar-indirim">%50</span></a></li>
+                        <li><a class="dropdown-item reset" href="#"><i class="fas fa-magic icon-space"></i>Kozmetik &
+                                Parfüm<span class="dropbar-indirim">%70</span></a></li>
+                        <li><a class="dropdown-item reset" href="#"><i class="fas fa-campground icon-space"></i>Spor &
+                                Outdoor<span class="dropbar-indirim">%80</span></a></li>
+                        <li><a class="dropdown-item reset" href="#"><i
+                                    class="fas fa-seedling icon-space"></i>Süpermarket & Organik Ürünler<span
+                                    class="dropbar-indirim">%40</span></a></li>
+                        <li><a class="dropdown-item reset" href="#"><i class="fas fa-gem icon-space"></i>Takı &
+                                Mücevher<span class="dropbar-indirim">%70</span></a></li>
+                        <li><a class="dropdown-item reset" href="#"><i
+                                    class="fas fa-suitcase-rolling icon-space"></i>Valiz<span
+                                    class="dropbar-indirim">%80</span></a></li>
+                        <hr class="h-line">
+                        <li><a class="dropdown-item reset bottom-side-reset" href="#"><i
+                                    class="fas fa-infinity icon-space"></i>TÜM ÜRÜNLER</a></li>
+                    </ul>
+                </li>
+                <li><a href="#yenigelenler">YENİ GELENLER</a></li>
+                <li><a href="#coksatanlar">ÇOK SATANLAR</a></li>
+
+            </ul>
+
+            <!-- Sağ Menü -->
+            <div class="right-menu">
+                <!-- Search Icon -->
+                <a href="javascript:void(0);" class="search">
+                    <i class="fas fa-search"></i>
+                </a>
+                <!-- User Icon -->
+                <a href="javascript:void(0);" class="user">
+                    <i class="far fa-user"></i>
+                </a>
+                <!-- Cart Icon -->
+                <a href="#">
+                    <i class="fas fa-shopping-cart">
+                        <!-- Sepet Ürün Sayısı -->
+                        <span class="num-cart-product">0</span>
+                    </i>
+                </a>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- Navbar Bitişi -->
+
+
+
+
+    <!-- Search Bar Başlangıcı -->
+    <div class="search-bar">
+        <!-- Input Kısmı -->
+        <div class="search-input">
+            <input type="text" placeholder="Ürün Ara">
+            <!-- İptal Kısmı -->
+            <a href="javascript:void(0);" class="search-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- Search Bar Bitişi -->
+
+
+    <!-- Login ve Signup Başlangıcı -->
+
+    <div class="form">
+        <!-- login -->
+        <div class="login-form">
+            <!-- cancel btn -->
+            <a href="javascript:void(0);" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+
+            <strong>GİRİŞ YAP</strong>
+            <!-- inputs -->
+            <form>
+                <input type="email" placeholder="örnek@hotmail.com" name="email" required>
+                <input type="password" placeholder="Şifre" name="password" required>
+                <!-- submit btn -->
+                <input type="submit" value="GİRİŞ YAP">
+            </form>
+
+            <!-- unuttum ve kayıt ol btn -->
+            <div class="form-btns">
+                <a href="#" class="forget">Şifrenizi Mi Unuttunuz?</a>
+                <a href="javascript:void(0);" class="sign-up-btn">Hesap Oluştur</a>
+            </div>
+        </div>
+
+        <!-- Signup -->
+        <div class="sign-up-form">
+            <!-- cancel btn -->
+            <a href="javascript:void(0);" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+
+            <strong>KAYIT OL</strong>
+            <!-- inputs -->
+            <form>
+                <input type="text" placeholder="Ad Soyad" name="adsoyad" required>
+                <input type="email" placeholder="örnek@hotmail.com" name="email" required>
+                <input type="password" placeholder="Şifre" name="password" required>
+                <!-- submit btn -->
+                <input type="submit" value="KAYIT OL">
+            </form>
+
+            <!-- unuttum ve kayıt ol btn -->
+            <div class="form-btns">
+                <a href="javascript:void(0);" class="already-acount">Zaten Hesabınız Var Mı?</a>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Login ve Signup Bitişi -->
+
+
+
+    <!-- Full Slider Başlangıç -->
+
+
+
+
+    <div class="slider">
+        <div class="slider-inner">
+            <input class="slider-open" type="radio" id="slider-1" name="slider" aria-hidden="true" hidden=""
+                checked="checked">
+            <div class="slider-item">
+                <img src="img/Banner1.png">
+            </div>
+            <input class="slider-open" type="radio" id="slider-2" name="slider" aria-hidden="true" hidden="">
+            <div class="slider-item">
+                <img src="img/Banner2.png">
+            </div>
+            <input class="slider-open" type="radio" id="slider-3" name="slider" aria-hidden="true" hidden="">
+            <div class="slider-item">
+                <img src="img/Banner3.png">
+            </div>
+            <input class="slider-open" type="radio" id="slider-4" name="slider" aria-hidden="true" hidden="">
+            <div class="slider-item">
+                <img src="img/banner4.png">
+            </div>
+            <label for="slider-3" class="slider-control prev control-1">‹</label>
+            <label for="slider-2" class="slider-control next control-1">›</label>
+            <label for="slider-1" class="slider-control prev control-2">‹</label>
+            <label for="slider-3" class="slider-control next control-2">›</label>
+            <label for="slider-2" class="slider-control prev control-3">‹</label>
+            <label for="slider-4" class="slider-control next control-3">›</label>
+            <label for="slider-3" class="slider-control prev control-4">‹</label>
+            <label for="slider-1" class="slider-control next control-4">›</label>
+            <ol class="slider-indicators">
+                <li>
+                    <label for="slider-1" class="slider-bullet">•</label>
+                </li>
+                <li>
+                    <label for="slider-2" class="slider-bullet">•</label>
+                </li>
+                <li>
+                    <label for="slider-3" class="slider-bullet">•</label>
+                </li>
+                <li>
+                    <label for="slider-4" class="slider-bullet">•</label>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+
+    <!-- Full Slider Bitiş -->
+
+
+
+    <!-- Kategoriler Başlangıcı -->
+
+    <div class="kategori-bg">
+        <h2 class="kategori-text">- İNDİRİMLİ KATEGORİLER -</h2>
+        <div class="flex-div">
+            <a href="#">
+                <div class="kategoriler white-bg">
+                    <i class="fas fa-desktop fa-3x icon-space"></i> <span>Elektronik</span>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="kategoriler white-bg">
+                    <i class="fas fa-mobile fa-3x icon-space"></i> <span>Mobil Aksesuar</span>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="kategoriler white-bg">
+
+                    <i class="fas fa-home fa-3x icon-space"></i> <span>Elektrikli Ev Aletleri</span>
+
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="kategoriler white-bg">
+                    <i class="fas fa-faucet fa-3x icon-space"></i> <span style="text-align: center;">Ev & Mutfak <br>
+                        Gereçleri</span>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="kategoriler white-bg">
+                    <i class="fas fa-baby fa-3x icon-space"></i> <span>Anne&Bebek</span>
+                </div>
+            </a>
+
+
+            <a href="#">
+                <div class="kategoriler white-bg">
+                    <i class="fas fa-gift fa-3x icon-space"></i> <span style="text-align: center;">Hediyelik & <br>
+                        Aksesuar</span>
+                </div>
+            </a>
+        </div>
+        <div class="flex-div">
+            <a href="#">
+                <div class="kategoriler white-bg">
+                    <i class="fas fa-heart fa-3x icon-space"></i> <span style="text-align: center;">Kişisel Bakım <br> &
+                        Sağlık </span>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="kategoriler white-bg">
+                    <i class="fas fa-magic fa-3x icon-space"></i> <span>Kozmetik & Parfüm</span>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="kategoriler white-bg">
+
+                    <i class="fas fa-campground fa-3x icon-space"></i> <span> Spor & Outdoor</span>
+
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="kategoriler white-bg">
+                    <i class="fas fa-seedling fa-3x icon-space"></i> <span style="text-align: center;">Süpermarket &
+                        Organik Ürünler</span>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="kategoriler white-bg">
+                    <i class="fas fa-gem fa-3x icon-space"></i> <span>Takı & Mücevher</span>
+                </div>
+            </a>
+
+
+            <a href="#">
+                <div class="kategoriler white-bg">
+                    <i class="fas fa-suitcase-rolling fa-3x icon-space"></i> <span>Valiz</span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Kategoriler Bitiş -->
+
+
+
+    <!-- Yeni Gelenler Başlangıç -->
+
+    <section class="new-arrival" id="yenigelenler">
+        <!-- heading -->
+        <div class="arrival-heading">
+            <strong>- YENİ GELENLER -</strong>
+            <p>Çabuk! Stoklar Tükenmeden Önce Sen Al</p>
+        </div>
+
+        <!-- Ürün Container -->
+        <div class="product-container">
+            <!-- ürün box-1 -->
+            <div class="product-box">
+
+                <!--img-->
+                <div class="product-img">
+
+                    <!-- cart -->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+
+                    <img src="img/yenigelenurun1.png" alt="">
+                </div>
+
+                <!-- Ürün Detay -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Soultech Akıllı Süpürge</a>
+                    <span class="p-price">4.999,00 ₺</span>
+                </div>
+            </div>
+
+            <!-- ürün box-2 -->
+            <div class="product-box">
+
+                <!--img-->
+                <div class="product-img">
+
+                    <!-- cart -->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+
+                    <img src="img/yenigelenurun2.jpg" alt="">
+                </div>
+
+                <!-- Ürün Detay -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Jbl Endurance Sprint</a>
+                    <span class="p-price">363,90 ₺</span>
+                </div>
+            </div>
+
+            <!-- ürün box-3 -->
+            <div class="product-box">
+
+                <!--img-->
+                <div class="product-img">
+
+                    <!-- cart -->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+
+                    <img src="img/yenigelenurun3.jpg" alt="">
+                </div>
+
+                <!-- Ürün Detay -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Karaca Hatır Plus 2 in 1</a>
+                    <span class="p-price">899,00 ₺</span>
+                </div>
+            </div>
+
+            <!-- ürün box-4 -->
+            <div class="product-box">
+
+                <!--img-->
+                <div class="product-img">
+
+                    <!-- cart -->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+
+                    <img src="img/yenigelenurun4.jpg" alt="">
+                </div>
+
+                <!-- Ürün Detay -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Lava Premium Tepsi</a>
+                    <span class="p-price">498,90 ₺</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Yeni Gelenler Bitiş -->
+
+
+    <!-- 3'lü Img Başlangıç -->
+    <div class="bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#">
+                        <img src="img/Frame1.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">
+                        <img src="img/Frame2.png" alt="">
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="#">
+                        <img src="img/Frame3.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 3'lü Img Bitiş -->
+
+
+
+    <!-- Çok Satanlar Başlangıç -->
+
+    <section class="new-arrival" id="coksatanlar">
+        <!-- heading -->
+        <div class="arrival-heading">
+            <strong>- ÇOK SATANLAR -</strong>
+            <p>Bu Haftanın En Çok Satan Ürünleri</p>
+        </div>
+
+        <!-- Ürün Container -->
+        <div class="product-container">
+            <!-- ürün box-1 -->
+            <div class="product-box">
+
+                <!--img-->
+                <div class="product-img">
+
+                    <!-- cart -->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+
+                    <img src="img/coksatanlar1.jpg" alt="">
+                </div>
+
+                <!-- Ürün Detay -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Vaude Odyssee Çadır</a>
+                    <span class="p-price">4.036,90 ₺</span>
+                </div>
+            </div>
+
+            <!-- ürün box-2 -->
+            <div class="product-box">
+
+                <!--img-->
+                <div class="product-img">
+
+                    <!-- cart -->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+
+                    <img src="img/coksatanlar2.jpg" alt="">
+                </div>
+
+                <!-- Ürün Detay -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Bissell 2602N Icon 25V</a>
+                    <span class="p-price">7.899,00 ₺</span>
+                </div>
+            </div>
+
+            <!-- ürün box-3 -->
+            <div class="product-box">
+
+                <!--img-->
+                <div class="product-img">
+
+                    <!-- cart -->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+
+                    <img src="img/coksatanlar3.jpg" alt="">
+                </div>
+
+                <!-- Ürün Detay -->
+                <div class="product-details">
+                    <a href="#" class="p-name">AxissFix Plus Oto Koltuğu</a>
+                    <span class="p-price">6.413,90 ₺ </span>
+                </div>
+            </div>
+
+            <!-- ürün box-4 -->
+            <div class="product-box">
+
+                <!--img-->
+                <div class="product-img">
+
+                    <!-- cart -->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+
+                    <img src="img/coksatanlar4.jpg" alt="">
+                </div>
+
+                <!-- Ürün Detay -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Sennheiser Momentum 3</a>
+                    <span class="p-price">3.886,90 ₺</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Çok Satanlar Bitiş -->
+
+
+
+    <!-- Loyalty Club Section Başlangıç-->
+    <div class="loyalty-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="#">
+                        <img src="img/Frame4.png" alt="">
+                        <img class="mobile" src="img/Frame 35.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Loyalty Club Section Bitiş -->
+
+    <!-- Servis Başlangıç -->
+    <section class="services">
+        <div class="services-box">
+            <i class="fas fa-shipping-fast"></i>
+            <span>Ücretiz Teslimat</span>
+
+        </div>
+
+        <div class="services-box">
+            <i class="fas fa-headphones-alt"></i>
+            <span>7/24 Canlı Destek</span>
+
+        </div>
+
+        <div class="services-box">
+            <i class="fas fa-sync"></i>
+            <span>Koşulsuz İade</span>
+
+        </div>
+    </section>
+
+    <!-- Servis Bitiş -->
+
+
+
+    <!-- Footer Başlangıç-->
+
+    <div class="source_code">
+        Kaynak kodları indirmek için <a href="SanalMagaza.rar" download="SanalMagaza.rar">tıklayınız !</a>
+    </div>
+
+    <!-- Footer Bitiş-->
+
+
+
+    <!-- jQuery -->
+    <script src="js/jQuery.js"></script>
+    <!-- Script -->
+    <script type="text/javascript">
+
+        /* -- For Search Bar -- */
+
+        $(document).on('click', '.search', function () {
+            $('.search-bar').addClass('search-bar-active')
+        });
+
+
+
+        $(document).on('click', '.search-cancel', function () {
+            $('.search-bar').removeClass('search-bar-active')
+
+        });
+
+
+
+        /* -- Login ve Signup Form --*/
+
+        $(document).on('click', '.user,.already-acount', function () {
+            $('.form').addClass('login-active').removeClass('sign-up-active')
+        });
+
+        $(document).on('click', '.sign-up-btn', function () {
+            $('.form').addClass('sign-up-active').removeClass('login-active')
+        });
+
+        $(document).on('click', '.form-cancel', function () {
+            $('.form').removeClass('login-active').removeClass('sign-up-active')
+
+        });
+
+
+        /*-- Hamburger menu script --*/
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 50) {
+                $('.navigation').addClass('fix-nav');
+            }
+            else {
+                $('.navigation').removeClass('fix-nav');
+            }
+        });
+
+
+        /* Responsive navbar */
+
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('.toggle').toggleClass('active')
+                $('.navigation').toggleClass('active')
+            })
+        })
+        
+        
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
